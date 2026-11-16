@@ -157,10 +157,16 @@ The 4-bit Synchronous Up-Counter was realized using Verilog HDL, with the charac
 count(next) = count + 1   (when en = 1), wrapping from 1111 to 0000
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected state transition table.
+<img width="1920" height="1020" alt="Screenshot 2026-11-16 183308" src="https://github.com/user-attachments/assets/8fc1ec85-a840-4e40-8ee0-657795950b60" />
+
+
+
+<img width="1920" height="1020" alt="Screenshot 2026-11-16 183321" src="https://github.com/user-attachments/assets/e39399ca-de1c-4307-8610-373a4d1a2c40" />
+
 
 ## Output
 
-<img width="609" height="173" alt="image" src="https://github.com/user-attachments/assets/34051c7c-087f-4759-a55f-1af528460ca0" />
+<img width="1920" height="1020" alt="Screenshot 2026-11-16 183411" src="https://github.com/user-attachments/assets/2a99e5b5-22f2-46ef-abe2-5f7a29b108a1" />
 
 
 ## Result
