@@ -162,25 +162,6 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 
 <img width="609" height="173" alt="image" src="https://github.com/user-attachments/assets/34051c7c-087f-4759-a55f-1af528460ca0" />
 
-## Viva-Voce Questions
-
-●	What is the difference between a synchronous counter and a ripple (asynchronous) counter?
-
-●	What is the modulus of this counter, and how is it related to the number of bits?
-
-●	What happens to the count value on overflow, and why is this called 'wrap-around'?
-
-●	What is the purpose of the enable (en) input, and what would happen if it were removed?
-
-●	How would you modify this design to create a down-counter?
-
-●	How would you modify this design to create an up/down counter with a direction control input?
-
-●	What is the difference between a synchronous and an asynchronous reset, and which one is used here?
-
-●	Why is a VCD file generated, and what does $dumpvars(0, tb) do?
-
-●	How would you extend this design to an 8-bit or a mod-10 (decade) counter?
 
 ## Result
 
