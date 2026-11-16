@@ -158,29 +158,27 @@ count(next) = count + 1   (when en = 1), wrapping from 1111 to 0000
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected state transition table.
 
+<img width="1920" height="1020" alt="Screenshot 2026-11-16 183308" src="https://github.com/user-attachments/assets/dffe85d2-b7fa-4a3f-9371-ef0c46cfcadc" />
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1020" alt="Screenshot 2026-11-16 183321" src="https://github.com/user-attachments/assets/9fc14fd4-f42a-4d9b-aae2-d876fb314708" />
+
+
+
 ## Output
+<img width="1920" height="1020" alt="Screenshot 2026-11-16 183411" src="https://github.com/user-attachments/assets/fc150fcb-a22b-4a6d-9c96-4c4dd600669e" />
 
-<img width="609" height="173" alt="image" src="https://github.com/user-attachments/assets/34051c7c-087f-4759-a55f-1af528460ca0" />
 
-## Viva-Voce Questions
 
-●	What is the difference between a synchronous counter and a ripple (asynchronous) counter?
 
-●	What is the modulus of this counter, and how is it related to the number of bits?
-
-●	What happens to the count value on overflow, and why is this called 'wrap-around'?
-
-●	What is the purpose of the enable (en) input, and what would happen if it were removed?
-
-●	How would you modify this design to create a down-counter?
-
-●	How would you modify this design to create an up/down counter with a direction control input?
-
-●	What is the difference between a synchronous and an asynchronous reset, and which one is used here?
-
-●	Why is a VCD file generated, and what does $dumpvars(0, tb) do?
-
-●	How would you extend this design to an 8-bit or a mod-10 (decade) counter?
 
 ## Result
 
